@@ -6,20 +6,38 @@
     </head>
     <body>
         <h1>Формы</h1>
-        <form name="formName" method="get" action="/">
-            <label>
-                Текстовое поле
-                <input type="text" name="textInput"><br>
-            </label>
+        <form
+            method="post"
+            action="./"
+        >
+            поиск
+            <input name="zapolnite" type="password"><br>
+            <button>Искать...</button>
+        </form>
+            <!-- /?textInput=Text_field&
+            passwordInput=pass&
+            radioInput1=on&
+            radioInput=on&
+            textareaField=fadf+asdf+asdf+asdf+asdf+asdf+asdf+asdf+asdf+asdf+asdf+asdf+asdf+asdf+a -->
+            <!-- /?textInput=text_input&
+            passwordInput=1111&
+            radioInput=1&
+            textareaField=xt+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+Text+&
+            selectInput=c -->
+            <!-- https://www.google.com/search?q=123123231&oq=123123231&aqs=chrome..69i57.1631j0j7&sourceid=chrome&ie=UTF-8
             <label>
                 Поле для ввода пароля
                 <input type="password" name="passwordInput"><br>
             </label>
             <fieldset>
                 <legend>Группа радиокнопок</legend>
+                <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+            </p>
+                <fieldset>
+                <legend>Другая группа радиокнопок</legend>
                 <label>
-                    <input type="radio" name="radioInput"> 1<br>
-                    <input type="radio" name="radioInput"> 2<br>
+                    <input type="radio" name="radioInput" value="1"> 1<br>
+                    <input type="radio" name="radioInput" value="2"> 2<br>
                 </label>
             </fieldset>
             <label>
@@ -27,13 +45,14 @@
             </label>
             <button>Кнопка</button><br>
             <textarea name="textareaField"></textarea>
-            <select>
-                <option>123</option>
-                <option>456</option>
-                <option>789</option>
-                <option>000</option>
-                <option>---</option>
+            <br>
+            <select name='selectInput'>
+                <option value="a">123</option>
+                <option value="b">456</option>
+                <option value="c">789</option>
+                <option value="d">000</option>
+                <option value="e">---</option>
             </select>
-        </form>
+        </form> -->
     </body>
 </html>
