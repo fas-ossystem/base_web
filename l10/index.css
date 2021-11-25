@@ -1,0 +1,28 @@
+.css3-ui {
+    outline-offset: 1px;
+    outline-style: outset;
+    outline-width: 2px;
+    outline-color: #0f0;
+    resize: vertical;
+    cursor: pointer;
+    caret-color: #f00;
+}
+
+.css3-gradient {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(180deg, #00f, #ff0);
+    /* background: linear-gradient(to right, #0f0 0%, #0f0 32%, #fff 33%, #fff 65%, #f00 66%, #f00 100%); */
+
+    /* background: radial-gradient(at top, aqua, #000); */
+
+    /* background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+    background: repeating-radial-gradient(circle, #B9ECFE, #B9ECFE 10px, #82DDFF 10px, #82DDFF 20px); */
+
+    /* background: -webkit-linear-gradient(left, red, blue);
+    background: -moz-linear-gradient(left, red, blue);
+    background: -o-linear-gradient(left, red, blue); */
+
+    /* background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5)), url(https://html5book.ru/wp-content/uploads/2016/12/photo-8.jpg);  */
+}
+
